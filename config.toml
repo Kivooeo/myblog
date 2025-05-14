@@ -1,0 +1,22 @@
+base_url = "https://kivooeo.github.io"
+title = "none blog!"
+description = "this my blog that never ever existed."
+
+compile_sass = true
+generate_feeds = true
+
+taxonomies = [
+    { name = "tags" },
+    { name = "categories" },
+    { name = "contexts" },
+]
+
+[markdown]
+highlight_code = true
+
+[extra]
+author = "Kivooeo"
+logo = "images/logo.png"
+header_nav = [
+    { name = "~home", url = "/" },
+]
